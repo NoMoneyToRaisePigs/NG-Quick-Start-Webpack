@@ -4,7 +4,8 @@
   "description": "Simplest Example Quick Start",
   "scripts": {
     "webpack": "webpack",
-    "server": "webpack-dev-server -w"
+    "server": "webpack-dev-server -w",
+    "task": "gulp"
   },
   "dependencies": {
     "@angular/common": "^2.4.5",
@@ -33,6 +34,8 @@
     "@types/angular-route": "^1.3.2",
     "@types/angular-sanitize": "^1.3.3",
     "@types/node": "^6.0.45",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.2",
     "webpack": "^3.5.6",
